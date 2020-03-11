@@ -1,0 +1,14 @@
+﻿<Window x:Class="ImportViewerTree.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ImportViewerTree"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TreeView Name ="TreeView1" Margin="0,0,363.6,10"></TreeView>
+		<TextBlock x:Name ="Display1" Margin="430,0,-0.4,158"><Run Text="jdsfjkdshjfk"/></TextBlock>
+		<StackPanel Name="CommandsPanel" Margin="430,262,-0.4,0"></StackPanel>
+	</Grid>
+</Window>

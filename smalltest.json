@@ -1,0 +1,202 @@
+{
+    "CustomerDetails": {
+        "FirstName": null,
+        "LastName": null,
+        "Address1": null,
+        "Address2": null,
+        "City": null,
+        "State": null,
+        "PostalCode": null,
+        "Country": null,
+        "PrimaryPhone": null,
+        "SecondaryPhone": null,
+        "Email": null
+    },
+    "HouseDetails": {
+        "HostName": "My Crestron",
+        "SystemName": "SmallTest",
+        "ProcessorType": "CP4-R",
+        "DealerName": "Marlette, Jason",
+        "DealerPhone": "2017673400",
+        "DealerEmail": "jmarlette@crestron.com",
+        "Latitude": null,
+        "Longitude": null,
+        "SunriseTime": null,
+        "SunsetTime": null,
+        "PrimaryImageKey": null
+    },
+    "ConfigurationId": "dabdfdd1-c71a-49e2-a927-1f976e254def",
+    "ConfigurationVersion": "1.0",
+    "ConfigurationName": "SmallTest",
+    "RoomList": [{
+            "Id": "7bcf8a06-cbcd-4b27-a2ef-096975afd354",
+            "RoomName": "Deck",
+            "PrimaryImageKey": null,
+            "Hidden": false
+        }, {
+            "Id": "2a8e7edf-3615-42ee-b3ab-a7e6af9d2b09",
+            "RoomName": "Atrium",
+            "PrimaryImageKey": null,
+            "Hidden": false
+        }, {
+            "Id": "27be6666-c4d6-4222-baee-dc1029051d06",
+            "RoomName": "Whole House",
+            "PrimaryImageKey": null,
+            "Hidden": false
+        }, {
+            "Id": "0f178a32-5363-46e7-9ff1-e1223b53a4c4",
+            "RoomName": "Basement",
+            "PrimaryImageKey": null,
+            "Hidden": false
+        }
+    ],
+    "RoomGroupList": null,
+    "EnclosureList": null,
+    "DeviceList": [{
+            "ControlPathParentId": null,
+            "ControlPathSlotId": null,
+            "DeviceClass": "Device",
+            "Id": "dabdfdd1-c71a-49e2-a927-1f976e254def",
+            "DeviceName": "CP4-R",
+            "DeviceCategory": "ControlSystem",
+            "Type": "Control System",
+            "Model": null,
+            "ControlPathType": "Uninitialized",
+            "RoomId": null
+        }, {
+            "ControlPathParentId": "dabdfdd1-c71a-49e2-a927-1f976e254def",
+            "ControlPathSlotId": null,
+            "DeviceClass": "Device",
+            "Id": "88a7ff7c-5ce3-4ac1-893c-be28df097254",
+            "DeviceName": "CEN-GWEXER 1",
+            "DeviceCategory": "Gateway",
+            "Type": "CEN-GWEXER",
+            "Model": null,
+            "ControlPathType": "Ethernet",
+            "RoomId": null
+        }, {
+            "ControlPathParentId": "88a7ff7c-5ce3-4ac1-893c-be28df097254",
+            "ControlPathSlotId": "1",
+            "DeviceClass": "Device",
+            "Id": "ce653642-446a-416f-80a1-02fe6a74430c",
+            "DeviceName": "CLW-DIMEX-P",
+            "DeviceCategory": "Device",
+            "Type": "CLW-DIMEX-P",
+            "Model": null,
+            "ControlPathType": "Infinet",
+            "RoomId": "2a8e7edf-3615-42ee-b3ab-a7e6af9d2b09"
+        }, {
+            "ControlPathParentId": "ce653642-446a-416f-80a1-02fe6a74430c",
+            "ControlPathSlotId": null,
+            "DeviceClass": "Device",
+            "Id": "355ab4e4-6cc4-491b-b4cc-0a0c44a70227",
+            "DeviceName": "CLW-DIMEX-P",
+            "DeviceCategory": "Keypad",
+            "Type": "CLW-DIMEX-P",
+            "Model": "CLW-DIMEX-P-W-S",
+            "ControlPathType": "Internal",
+            "RoomId": "2a8e7edf-3615-42ee-b3ab-a7e6af9d2b09"
+        }, {
+            "ControlPathParentId": "ce653642-446a-416f-80a1-02fe6a74430c",
+            "ControlPathSlotId": "1",
+            "DeviceClass": "Device",
+            "Id": "878ec038-1d65-4215-98dc-2249d5d7fb29",
+            "DeviceName": "DimexpAtrium",
+            "DeviceCategory": "Dimmer",
+            "Type": "CLW-DIMEX-P",
+            "Model": null,
+            "ControlPathType": "Internal",
+            "RoomId": "2a8e7edf-3615-42ee-b3ab-a7e6af9d2b09"
+        }, {
+            "ControlPathParentId": "88a7ff7c-5ce3-4ac1-893c-be28df097254",
+            "ControlPathSlotId": "2",
+            "DeviceClass": "Device",
+            "Id": "fc63aaa1-4c85-4ec0-bb92-72509c9c5b53",
+            "DeviceName": "CLW-DELVEX-P",
+            "DeviceCategory": "Device",
+            "Type": "CLW-DELVEX-P",
+            "Model": null,
+            "ControlPathType": "Infinet",
+            "RoomId": "2a8e7edf-3615-42ee-b3ab-a7e6af9d2b09"
+        }, {
+            "ControlPathParentId": "fc63aaa1-4c85-4ec0-bb92-72509c9c5b53",
+            "ControlPathSlotId": null,
+            "DeviceClass": "Device",
+            "Id": "9189546d-742b-415c-afc3-a073f51bf2ec",
+            "DeviceName": "CLW-DELVEX-P",
+            "DeviceCategory": "Keypad",
+            "Type": "CLW-DELVEX-P",
+            "Model": "CLW-DELVEX-P-W-S",
+            "ControlPathType": "Internal",
+            "RoomId": "2a8e7edf-3615-42ee-b3ab-a7e6af9d2b09"
+        }, {
+            "ControlPathParentId": "fc63aaa1-4c85-4ec0-bb92-72509c9c5b53",
+            "ControlPathSlotId": "1",
+            "DeviceClass": "Device",
+            "Id": "535e5cc5-a71b-41c3-8bf1-bf49d3f29614",
+            "DeviceName": "delvp",
+            "DeviceCategory": "Dimmer",
+            "Type": "CLW-DELVEX-P",
+            "Model": null,
+            "ControlPathType": "Internal",
+            "RoomId": "2a8e7edf-3615-42ee-b3ab-a7e6af9d2b09"
+        }
+    ],
+    "LightLoadList": [{
+            "Id": "878ec038-1d65-4215-98dc-2249d5d7fb29",
+            "LoadName": "DimexpAtrium",
+            "Capabilities": null,
+            "Type": "Incandescent",
+            "FixtureQty": 1,
+            "FixtureWatts": 50,
+            "RoomId": "2a8e7edf-3615-42ee-b3ab-a7e6af9d2b09"
+        }, {
+            "Id": "535e5cc5-a71b-41c3-8bf1-bf49d3f29614",
+            "LoadName": "delvp",
+            "Capabilities": null,
+            "Type": "Incandescent",
+            "FixtureQty": 1,
+            "FixtureWatts": 50,
+            "RoomId": "2a8e7edf-3615-42ee-b3ab-a7e6af9d2b09"
+        }
+    ],
+    "DeviceLayoutList": [{
+            "DeviceId": "9189546d-742b-415c-afc3-a073f51bf2ec",
+            "DeviceLayoutId": 1,
+            "DevicePartList": [{
+                    "PartType": "ClwFullButtonPart",
+                    "DevicePartAreaList": [{
+                            "AreaIndex": 8,
+                            "IsEngravable": true,
+                            "IsProgrammable": true,
+                            "IsProgrammed": false,
+                            "EngravingInfo": {
+                                "DisplayAsTwoLines": false,
+                                "TextLine1": "WWWWWWW11",
+                                "FontLine1": "Arial",
+                                "TextLine2": "",
+                                "FontLine2": "Arial"
+                            },
+                            "ProgrammingInfo": null
+                        }, {
+                            "AreaIndex": 9,
+                            "IsEngravable": true,
+                            "IsProgrammable": true,
+                            "IsProgrammed": false,
+                            "EngravingInfo": {
+                                "DisplayAsTwoLines": false,
+                                "TextLine1": "WWWWWWW111",
+                                "FontLine1": "Arial",
+                                "TextLine2": "",
+                                "FontLine2": "Arial"
+                            },
+                            "ProgrammingInfo": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "LinkedDeviceList": null,
+    "LightingSceneList": null
+}
