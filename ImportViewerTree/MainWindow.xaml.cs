@@ -81,6 +81,13 @@ namespace ImportViewerTree
 				deviceTvi.Items.Add(childItem);
 			}
 
+			TreeViewItem tvi = new TreeViewItem();
+			tvi.Header = "header";
+			tvi.Tag = "tag";
+
+			tvi.Expanded += ListItem_Expanded;
+			TreeView2.Items.Add(tvi);
+
 			#region Test stuff
 
 			//TreeViewItem ParentItem = new TreeViewItem();
